@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <link rel="stylesheet" href="regstyle.css"> 
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="naveen">
+    
+ 
+    </head> 
+    <body>
+    <!-- <div class="contain">-->
+            <div class ="card"> 
+                <h1>Register</h1>
+               <!-- <form action="http://localhost//Dciproject/loginform.php" method="post">  -->
+                <form name="myform2"  action="http://localhost/Dciproject/register.php" method="post" enctype="multipart/form-data" >                
+                 <input type="text" placeholder="Username" name="uname1" class="uname1" id="uname1" required><br>
+                <input type="email" placeholder="Email" name="email1" class="email1" id="email1" required><br>
+                <input type="password" placeholder="Password" name="upswd1"  class="upswd1" id="upswd1"  required><br>                
+              
+                <p id="errorBox"></p>
+                <input type="submit" value="submit" id="button">
+              <p> Have an account? <a href="loginpage.php">Login Here</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

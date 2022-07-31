@@ -1,0 +1,72 @@
+.dbresult, .dbresult td, .dbresult th
+{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    color: yellow;
+    width: 300;
+    font-size: 20;
+    
+    
+}
+
+.dbresult{
+    width: 400px;
+    margin :auto;
+
+}
+.p_nm{
+    width: 200;
+    height: 30;
+    font-size: 17;
+    
+}
+
+.p_quantity{
+    width: 200;
+    height: 30;
+    font-size: 17;
+}
+
+.p_price{
+    width: 200;
+    height: 30;
+    font-size: 17;
+}
+
+.file{
+    width: 220;
+    height: 30;
+    font-size: 17;
+}
+
+
+
+.dbresult tr{
+    background-color: grey;
+}
+
+.submit{
+    background-color: yellow;
+}
+
+#button{
+    border: 20px;
+    padding: 10px 10px;
+    background:yellow;
+    color: 2px solid grey;
+   /* margin-bottom: 40px;
+    margin-top: 10px;*/
+    border-radius: 20px;
+    font-size: 15;
+    cursor: pointer;
+    width: 100px;    
+}
+
+#button:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+    
+
+}

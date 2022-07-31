@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.home
+		{
+			text-align: center;
+			border: 5px solid black;
+			padding: 10px;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		td
+		{
+			padding: 10px 30px;
+			font-size: 20px;
+		}
+		.button
+		{
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			border-radius: 30px;
+			background-color: greenyellow;
+			font-size: 20px;
+		}
+		.button:hover
+		{
+			background-color: black;
+			color: wheat;
+		}
+	</style>
+</head>
+<body>
+<div class="home" >
+	<form method="post" action="http://localhost/harish/homepage.php">
+		<table align="center">
+			<tr>
+				<td>DEPARTMENT NUMBER<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="text" placeholder="enter department number" name="dno" required=""></td>
+			</tr>
+			<tr>
+				<td>DEPARTMENT NAME<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="text" placeholder="enter department name"required="" name="dnm"></td>
+			</tr>
+			<tr>
+				<td>DESCRIPTON<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><textarea cols="21" rows="10"required="" name="description"></textarea></td>
+			</tr>
+			<tr>
+				<td>DATE<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="DATE"required="" name="date" ></td>
+			</tr>
+			<tr>
+				<td>FACULTY ACTIVITY<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><textarea cols="21" rows="10"required="" name="fa"></textarea></td>
+			</tr>
+			<tr>
+				<td>STUDENT ACTIVITY</td>
+				<td>:</td>
+				<td><textarea cols="21" rows="10"required="" name="sa"></textarea></td>
+			</tr>
+			<tr>
+				<td>ACADEMIC YEAR<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="text" placeholder="2020-2021" name="ay"></td>
+			</tr>
+			<tr>
+				<td>LEVEL<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="level" value="local">Local
+					<input type="radio" name="level" value="district">District
+					<input type="radio" name="level" value="state">State
+					<input type="radio" name="level" value="national">National
+				</td>
+			</tr>
+			<tr>
+				<td>PROOF 1<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p1"></td>
+			</tr>
+			<tr>
+				<td>PROOF 2<t style="color: red;">*</t></td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p2"></td>
+			</tr>
+			<tr>
+				<td>PROOF 3</td>
+				<td>:</td>
+				<td><input type="file" placeholder="2020-2021" name="p3"></td>
+			</tr>
+		</table>
+		<br><br>
+		<button type="submit" class="button">submit</button>
+	</form>
+</div>
+</body>
+</html>
